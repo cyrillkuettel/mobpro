@@ -1,4 +1,4 @@
 # mobpro
 
 
-(Most) Android exercises for this module are implemented. 
+(Most) Android exercises for this module have been implemented. 
