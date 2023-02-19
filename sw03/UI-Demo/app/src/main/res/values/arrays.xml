@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnervalues">
+        <item>Functional JavaScript</item>
+        <item>Advanced C++</item>
+        <item>Networking</item>
+        <item>Dynamic Programming</item>
+    </string-array>
+</resources>

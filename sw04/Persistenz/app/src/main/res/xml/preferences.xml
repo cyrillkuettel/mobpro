@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="teaWithSugar"
+        android:persistent="true"
+        android:title="Gesüsster Tee?"
+        android:summary="Soll der Tee gesüsst werden?"
+        />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/teaSweetenerValues"
+        android:entryValues="@array/teaSweetenerValues"
+        android:key="teaSweetener"
+        android:title="Suessstoff"
+        android:summary="Wie soll der Tee gesuesst werden?"
+        android:persistent="true"
+        android:shouldDisableView="true"
+        />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/teaType"
+        android:entryValues="@array/teaType"
+        android:key="teaType"
+        android:title="Tee"
+        android:summary="Welche Teesorte?"
+        android:persistent="true"
+        android:shouldDisableView="true"
+        />
+
+
+
+
+</PreferenceScreen>

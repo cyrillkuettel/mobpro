@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UI-Demo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menge">Menge</string>
+    <string name="sondertarif">Sondertarif</string>
+    <string name="produkt_id">Produkt-ID</string>
+    <string name="beispiel_constraint_layout">Beispiel Constraint-Layout</string>
+    <string name="hier_steht_das_fiese_kleingedruckte">Hier steht das fiese Kleingedruckte</string>
+    <string name="zeige_die_auswahl">Zeige die Auswahl</string>
+</resources>

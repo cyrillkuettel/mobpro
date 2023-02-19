@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewMainTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:text="HSLU Mobile Programming" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mainButtonOpenPreferences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/darkorange"
+            android:text="Nebenläufigkeit" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mainButtonBlockGUI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GUI 7 Sekunden blokieren" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mainButtonDemoThread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/demo_thread_starten" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mainButtonDemoWorker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Demo-Worker Starten" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mainButtonCommunication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/darkorange"
+            android:text="Kommunikation (HTTP &amp; JSON)" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mainButtonStartServerRequest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Server-Anfrage starten" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mainButtonResetViewModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Viewmodel zurücksetzen" />
+
+        <TextView
+            android:id="@+id/mainNumberOfBands"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:textSize="12sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mainButtonShowBandSelection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zeige Band-Auswahl an" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mainCurrentBandName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="10dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/mainCurrentBandInfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="10dp"
+                android:textSize="12sp" />
+
+
+                <ImageView
+                    android:id="@+id/mainCurrentBandImage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

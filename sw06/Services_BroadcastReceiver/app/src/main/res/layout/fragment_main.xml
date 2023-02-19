@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewMainTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:text="HSLU Mobile Programming" />
+
+        <TextView
+            android:id="@+id/textViewSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:text="Hier geht's um Services und Broadcast Receivers" />
+        <TextView
+            android:id="@+id/textViewBanner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:background="@color/forestgreen"
+            android:text="Music Player Service" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mainButtonStartMusicPlayer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+
+            android:text="Musicplayer starten" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mainStopServiceButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="Musicplayer stoppen" />
+
+    </LinearLayout>
+
+
+        <CheckBox
+            android:id="@+id/mainCheckBoxConnectToService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mit Service verbinden" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/mainButtonNextSong"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:text="Nächstes stück" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/mainButtonHistory"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:text="History" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewBanner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:background="@color/forestgreen"
+            android:text="Broadcast Receivers" />
+
+        <CheckBox
+            android:id="@+id/mainCheckBoxBroadcastReceiverRegistered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BroadcastReceiver registriert" />
+
+        <TextView
+            android:id="@+id/textViewMessageBroadcst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:text="Nachricht vom BroadcastReceiver" />
+
+
+        <TextView
+            android:id="@+id/mainBroadcastMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:text="Broadcstempfang deaktiviert"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mainButtonSendGlobalBroadcast"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="Globalen Broadcast verchicken" />
+
+        <TextView
+            android:id="@+id/textViewBanner3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:background="@color/forestgreen"
+            android:text="WorkManager: Async Feedback" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mainButonLocalizeMissiles"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="Lokalisiere Missiles" />
+
+    </LinearLayout>
+</ScrollView>

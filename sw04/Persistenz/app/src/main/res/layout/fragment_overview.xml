@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/mainView_replaceFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewMainTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:text="@string/hslu_mobile_programming" />
+
+        <TextView
+            android:id="@+id/textViewTitlePreferences"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightHue"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            android:text="@string/application_preferences"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textViewOnResumeCounter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:text="@string/onresume_counter"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textViewOnSettingsLoaded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:textSize="12sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mainButtonOpenPreferences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tee_pr_ferenzen_editieren" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mainButtonSetDefaultPreferences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tee_pr_ferenzen_zur_cksetzen" />
+
+
+        <TextView
+            android:id="@+id/textViewFileSystem"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightHue"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            android:text="@string/dateisystem"
+            android:textColor="@color/black" />
+
+
+        <CheckBox
+            android:id="@+id/mainCheckboxExternalStorage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/der_externe_speicher_muss_verf_gbar_sein"
+            android:text="@string/externen_speicher_nutzen" />
+
+        <TextView
+            android:id="@+id/mainExternalStorageStateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/mainFileText"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+
+            android:layout_height="match_parent">
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/mainButtonSave"
+                android:background="@color/white"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:text="@string/speichern" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/mainButtonLoad"
+                android:layout_width="fill_parent"
+                android:background="@color/white"
+                android:textColor="@color/blue"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:text="@string/laden" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewRoomDB"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightHue"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            android:text="@string/room_db"
+            android:textColor="@color/black" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mainbuttonCreateNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notiz_erzeugen" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mainbuttonShowNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notizen_zeigen" />
+
+        <TextView
+            android:id="@+id/textViewContentProvider"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightHue"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            android:text="@string/content_provider"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mainButtonShowSMS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sms_anzeigen" />
+    </LinearLayout>
+</ScrollView>
+</FrameLayout>

@@ -1,0 +1,19 @@
+<resources>
+	<string name="app_name">FirstApp</string>
+	<string name="shared_user_label">HSLU Mobile Programming</string>
+	<string name="action_settings">Settings</string>
+
+	<string name="main_title">HSLU mobPro</string>
+	<string name="main_welcomeText">Willkommen zum ersten Android-Projekt im Modul Mobile Programming!</string>
+	<string name="main_buttontext_logActivity">Lifecycle mit Logausgabe starten</string>
+	<string name="main_buttontext_questionActivity">Activity mit Rückgabewert starten</string>
+	<string name="main_buttontext_startBrowser">Browser öffnen</string>
+	<string name="main_text_gotAnswer">Die letzte Antwort war:\u0020</string>
+
+	<string name="log_title">Lifecycle Logging</string>
+	<string name="log_label">Diese Fragment loggt alle Lifecycle-Events von der Host Activity und Fragment. Die Ausgabe erfolgt in der \'LogCat\' View im Android Studio.</string>
+	<string name="log_remark">Ansonsten macht diese Fragment nichts.</string>
+
+	<string name="question_title">Kleine Frage am Rande: Wie sind Sie bisher mit dem Modul zufrieden?</string>
+	<string name="question_buttontext">Antwort abschicken</string>
+</resources>

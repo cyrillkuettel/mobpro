@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textViewMainTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:textSize="22sp"
+            android:paddingVertical="10dp"
+            android:text="HSLU Mobile Programming" />
+
+
+        <TextView
+            android:id="@+id/txtFirstSubtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:background="@color/green"
+            android:text="Intents" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mainButtonStartIntent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Browser Intent starten" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/main_buttonquery_browser_intent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Browser Intent Abfragen" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mainButtonIntentWithCustom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intent mit eigener Aktion starten" />
+
+
+        <TextView
+            android:id="@+id/textViewCustomIntent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:id="@+id/txtSecondSubtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:background="@color/green"
+            android:layout_marginTop="30dp"
+            android:text="App Widgets" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textViewUpdateWidget"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="match_parent">
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/mainButtonUpdateWidgetText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:text="@string/Widget_Text_updaten" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

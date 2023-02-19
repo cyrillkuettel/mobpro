@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="teaSweetenerValues">
+        <item>artificial</item>
+        <item>refined</item>
+        <item>natural</item>
+    </string-array>
+
+
+    <string-array name="teaSweetener">
+        <item>Assurgin</item>
+        <item>Kristallzucker</item>
+        <item>Rohrzucker</item>
+    </string-array>
+
+
+    <string-array name="teaType">
+        <item>Pfefferminze</item>
+        <item>Grüntee</item>
+        <item>Früchtetee</item>
+    </string-array>
+
+
+
+</resources>

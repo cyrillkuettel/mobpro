@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ch.hslu.mobpro.intentfilterandwidget" >
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.IntentFilterAndWidget" >
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="ch.hslu.mobpro.intentfilterandwidget.SHOW_TEXT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MyBrowsingActivity"
+            android:label="MyBrowserActivity"
+            android:exported="true">
+                <intent-filter>
+                    <!-- The BROWSABLE category is required to get links from web pages. -->
+                    <category android:name="android.intent.category.BROWSABLE" />
+                    <category android:name="android.intent.category.DEFAULT" />
+                    <category android:name="android.intent.category.VIEW" />
+
+                    <data android:scheme="http" />
+                    <data android:scheme="https" />
+                </intent-filter>
+        </activity>
+
+
+
+
+        <receiver android:name=".MyAppWidgetProvider"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/my_app_widget_provider_info">
+            </meta-data>
+        </receiver>
+
+
+    </application>
+
+    <queries>
+        <intent>
+            <action android:name="andrroid.intent.action.VIEW"/>
+            <data android:scheme="*" />
+        </intent>
+    </queries>
+
+</manifest>
+

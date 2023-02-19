@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Persistenz</string>
+    <string name="tee_pr_ferenzen_editieren">Tee Präferenzen Editieren</string>
+    <string name="tee_pr_ferenzen_zur_cksetzen">Tee Präferenzen zurücksetzen</string>
+    <string name="preferences">Preferences</string>
+    <string name="resume_count_preference_key">ResumeCount</string>
+    <string name="onresume_counter">MainActivity.onResume() wurde seit der Installation dieser App %d Mal aufgerufen.</string>
+
+    <string name="teaDescription">Ich trinke am liebsten %s, %s.</string>
+
+    <string name="title_activity_app_preferences">AppPreferencesActivity</string>
+    <string name="sms_anzeigen">SMS anzeigen</string>
+    <string name="content_provider">Content Provider</string>
+    <string name="notizen_zeigen">Notizen zeigen</string>
+    <string name="notiz_erzeugen">Notiz erzeugen</string>
+    <string name="room_db">Room DB</string>
+        <string name="laden">Laden</string>
+        <string name="speichern">Speichern</string>
+    <string name="externen_speicher_nutzen">Externen Speicher nutzen</string>
+    <string name="dateisystem">Dateisystem</string>
+    <string name="der_externe_speicher_muss_verf_gbar_sein">Der externe Speicher muss verfügbar sein.</string>
+    <string name="application_preferences">Application Preferences</string>
+    <string name="hslu_mobile_programming">HSLU Mobile Programming</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

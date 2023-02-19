@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UI-Demo</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menge">amount</string>
+    <string name="sondertarif">special rate</string>
+    <string name="produkt_id">product ID</string>
+    <string name="beispiel_constraint_layout">Example of Constraint-Layout</string>
+    <string name="hier_steht_das_fiese_kleingedruckte">Here\'s the nasty fine print</string>
+    <string name="zeige_die_auswahl">Show selection</string>
+
+</resources>
